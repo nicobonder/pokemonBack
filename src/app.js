@@ -25,7 +25,7 @@ server.use((req, res, next) => {
 
 //Testing deploy in Railway
 //res.header('Access-Control-Allow-Origin', 'https://pokemonfront.up.railway.app');
-res.header('Access-Control-Allow-Origin', '*');
+res.header('Access-Control-Allow-Origin', 'https://pokemonfront.up.railway.app');
 
 //res.header('Access-Control-Allow-Origin', 'https://pokemonfront-17cp.onrender.com'); // update to match the domain you will make the request from
 // res.header('Access-Control-Allow-Origin', 'pokemon.up.railway.app'); // update to match the domain you will make the request from CREO QUE ESTA LINEA ESTA MAL
